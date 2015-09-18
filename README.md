@@ -1,6 +1,6 @@
 # Volt::Gmaps
 
-Adds a google map view. This will let you scroll the page when you mouse over the map
+Adds a google map view for Volt apps. This will let you scroll the page when you mouse over the map
 
 ## Installation
 

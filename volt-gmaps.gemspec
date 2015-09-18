@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Volt::Gmaps::VERSION
   spec.authors       = ["heri"]
   spec.email         = ["heri@madmedia.ca"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Adds a google map view for Volt apps}
+  spec.description   = %q{Adds a google map view for Volt apps. This will let you scroll the page when you mouse over the map}
+  spec.homepage      = "https://github.com/heri/volt-gmaps"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
