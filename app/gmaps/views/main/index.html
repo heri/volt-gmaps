@@ -1,0 +1,21 @@
+<:Body>
+  <style>
+    .overlay {
+       background:transparent;
+       position:relative;
+       width:auto;
+       height:{{ attrs.height ? attrs.width : '380px' }};
+       top:{{ attrs.height ? attrs.width : '380px' }};
+       margin-top:-{{ attrs.height ? attrs.width : '380px' }};
+    }
+  </style>
+  <div class="overlay" onClick="style.pointerEvents='none'"></div>
+  <div class="gMapsiFrame">
+    <iframe
+      width="{{ attrs.width ? attrs.width : '380px' }}"
+      height="{{ attrs.height ? attrs.width : '380px' }}"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key={{ attrs.key ? attrs.key : AIzaSyC7zIfUdBE4XAlwFTlOk2wobrkCiJFJ5e8 }}
+        &q={{ attrs.location }}" allowfullscreen>
+    </iframe>
+  </div>
